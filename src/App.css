@@ -1,0 +1,44 @@
+*{
+  font-family: 'Roboto',sans-serif;
+  font-size: 18px;
+
+}
+.container{
+  margin: auto;
+  border: 2px solid black;
+  height: 400px;
+  width: 300px;
+  margin-top: 50px;
+  text-align: center;
+  background-color: #101116;
+}
+input{
+  height: 95px;
+  width: 97.5%;
+  text-align: right;
+  background-color: #10111600;
+  color: white;
+  font-weight: 700;
+  font-size: 50px;
+  letter-spacing: 2px;
+  border: none;
+}
+.keypad{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-auto-rows: minmax(60px,auto);
+}
+#clear{
+  grid-column: 1/3;
+}
+#result{
+  grid-column: 3/5;
+}
+button{
+  margin: 5px;
+}
+.heading{
+  text-align: center;
+  font-weight: bold;
+  font-size: xx-large;
+}
